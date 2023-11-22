@@ -1,0 +1,19 @@
+name: Disguise
+main: disguise\Loader
+author: iBryMax
+api: 4.0.0
+version: 1.0.0
+website: https://github.com/iBryanidk
+
+permissions:
+  disguise.command.dthdisguie:
+    default: op
+    description: Permission for /disguise
+
+commands:
+  disguise:
+    description: Disguise
+    permission: disguise.command.dthdisguie
+  drealname:
+    description: Check the real nickname
+    permission: disguise.command.dthdisguie
